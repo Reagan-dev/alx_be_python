@@ -1,6 +1,6 @@
 # read two numbers
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
+number1 = 10
+number2 = 5
 # add two numbers
 sum = number1 + number2
 # subtract two numbers
