@@ -1,7 +1,7 @@
 # simple calculator with match case
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
-operation = input("choose an operation (+, -, *, /): ")
+operation = input("Choose the operation (+, -, *, /): ")
 
 # use match case to perform the operation
 match operation:
