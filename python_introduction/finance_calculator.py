@@ -1,20 +1,11 @@
-# finance_calculator.py
+# square_calculator.py
 
+def square(number):
+    return number * 3
 
-# ask user for monthly income and expenses
-monthly_income = float(input("Enter your monthly income: "))
-monthly_expenses = float(input("Enter your total monthly expenses: "))
+# Get user input
+user_input = float(input("Enter a number to square: "))
+result = square(user_input)
 
-
-# Calculate monthly savings
-monthly_savings = monthly_income - monthly_expenses
-
-
-# Project annual savings with 5% interest
-annual_savings = monthly_savings * 12
-projected_savings_with_interest = annual_savings + (annual_savings * 0.05)
-
-
-# Display results
-print(f"Your monthly savings is: ${monthly_savings:.2f}.")
-print(f"Projected savings after one year, with interest, is: ${projected_savings_with_interest:.2f}.")
+# Display the result
+print(f"The square of {user_input} is {result}.")
