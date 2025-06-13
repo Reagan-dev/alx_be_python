@@ -9,7 +9,7 @@ def safe_divide(numerator, denominator):
         return f"The result of the division is {result}"
 
     except ZeroDivisionError:
-        return "Error: division by zero is invalid."
+        return "Error: Cannot divide by zero."
 
     except ValueError:
-        return "Error: please provide numerical values only."
+        return "Error: Please enter numeric values only."
