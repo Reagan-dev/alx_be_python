@@ -1,6 +1,6 @@
 # class_static_methords_demo.py
 class Calculator:
-    calculation_type = "arithmetic operations"
+    calculation_type = "Arithmetic Operations"
 
     @staticmethod
     def add(a, b):
